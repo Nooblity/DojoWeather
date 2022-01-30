@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    background-color: rgb(124, 156, 216);
+    height: 85px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.header, .container {
+    width: 800px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header>h1,.header>ul {
+    flex:1;
+    color: azure;    
+}
+.header>ul{
+    display: flex;
+    justify-content: space-around;
+}
+.cities {
+    list-style-type: none;
+    cursor: pointer;
+}
+.currentcity {
+    width: 800px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+.currentcity>h2 {
+    font-size: 30px;
+}
+.row {
+    width: 800px;
+    display: flex;
+    gap: 20px;
+}
+.day {
+    flex:1;
+    height: 350px;
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.highlow {
+    width: 100px;
+}
+.high {
+    color: rgb(180, 35, 35);
+}
+.low {
+    float: right;
+    color: rgb(20, 59, 167);
+}
+.weathersymbol {
+    height: 120px;
+    border-radius: 50%;
+}   
+#cookie {
+    position: fixed;
+    bottom:200px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: 20px;    
+}
+.cookietext {
+    width: 650px;
+    margin: 0px 20px;
+}
+button  {
+    box-shadow: 3px 3px black, 3px 3px black;
+    background-color: rgb(119, 176, 230); 
+    width: 90px;   
+}
